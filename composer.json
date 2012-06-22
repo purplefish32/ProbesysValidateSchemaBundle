@@ -1,0 +1,27 @@
+{
+    "name": "probesys/validate-schema-bundle",
+    "description": "Doctrine validate schema command",
+    "keywords": ["Doctrine, Validate, Shema"],
+    "homepage": "http://probesys.com",
+    "type": "library",
+    "license": "http://www.gnu.org/licenses/gpl-3.0.html  GNU GPLv3",
+    "authors": [
+        {
+            "name": "Ulrich (Original Author)",
+            "homepage": "http://www.mon-code.net"
+        },
+        {
+            "name": "Donovan Tengblad",
+            "email": "donovan.tengblad@probesys.com",
+            "homepage": "http://probesys.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": { "Probesys\\ValidateSchemaBundle": "" }
+    },
+    "target-dir": "Probesys/ValidateSchemaBundle"
+}
+
