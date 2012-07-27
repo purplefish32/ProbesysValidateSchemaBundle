@@ -4,7 +4,7 @@ namespace Probesys\ValidateSchemaBundle\Command;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
-use Symfony\Bundle\DoctrineBundle\Command\Proxy\DoctrineCommandHelper;
+use Doctrine\Bundle\DoctrineBundle\Command\Proxy\DoctrineCommandHelper;
 use Doctrine\ORM\Tools\Console\Command\ValidateSchemaCommand;
 
 class ProbesysValidateSchemaCommand extends ValidateSchemaCommand
